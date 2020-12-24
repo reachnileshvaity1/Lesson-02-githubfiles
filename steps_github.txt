@@ -21,4 +21,43 @@ nileshv@nileshv-B85M-D3H:~/Lesson-02$ vi index.html
 nileshv@nileshv-B85M-D3H:~/Lesson-02$ vi index.js 
 nileshv@nileshv-B85M-D3H:~/Lesson-02$ git init
 Initialized empty Git repository in /home/nileshv/Lesson-02/.git/
+nileshv@nileshv-B85M-D3H:~/Lesson-02$ git add .
+nileshv@nileshv-B85M-D3H:~/Lesson-02$ git commit . -m "I am pushing all the files to mu github"
+[master (root-commit) a5da0d0] I am pushing all the files to mu github
+ 8 files changed, 42 insertions(+)
+ create mode 100644 C_Program.c
+ create mode 100644 HelloJava.java
+ create mode 100644 Texts.txt
+ create mode 100644 index.html
+ create mode 100644 index.js
+ create mode 100644 steps_github.txt
+ create mode 100644 styles.css
+ create mode 100644 typo.ts
+nileshv@nileshv-B85M-D3H:~/Lesson-02$ git status
+On branch master
+nothing to commit, working tree clean
+nileshv@nileshv-B85M-D3H:~/Lesson-02$ 
+
+nileshv@nileshv-B85M-D3H:~/Lesson-02$ git remote add origin git@github.com:reachnileshvaity1/Lesson-02-githubfiles.git
+nileshv@nileshv-B85M-D3H:~/Lesson-02$ git push -u origin master
+Warning: Permanently added the RSA host key for IP address '13.234.210.38' to the list of known hosts.
+git@github.com: Permission denied (publickey).
+fatal: Could not read from remote repository.
+
+Please make sure you have the correct access rights
+and the repository exists.
+nileshv@nileshv-B85M-D3H:~/Lesson-02$ cat ~/.ssh/id_rsa.pub 
+ssh-rsa AAAAB3NzaC1yc2EAAAADAQABAAABgQDCb91A7RjYZKAq9if8fGNFEOzhhzmwM4VeIBuU115RFC+H8OIn/htEWt8uLB/piFIf5J+mrJfgIyyyftBad04/qDTNPLCOgxxJFfp/GqKhjiy0QUjAzQ0S01GbbI3kABp/NP/5bQWOUTJVnkJ9y3GClJ+Q2+greuIOpaoLrBPcAa6E18crMFYWGKWvJQuLOtySJmzBC9sGf4J71rdgEBcf+EwC70HhMnYwrRVovo7CL/bprjjZZ9aL3UDGqwPToSxW5NJqRn8RvIXtuSpTwFmjS36sE/Nuh32V0gUIUbH7WLdLx/MXyXB9OBA5DFN3xpJplpjjty5C/c7xKP7K4eZJ6oad1UWNRk19gHYQlfN+/ivIQmGCt0Yfva4TphGFKeQqLzp/HvHpbPuFYQB7s7NuiU3sQRHpP7slI8LWnHscWid1iogVybvHC3m/A+7xZ3LcPGFpcfnUN4E2J8mMUiJNDXli9JFyxpuuHhz5jsDYndXV5mtplu2G2UK+6JDPtnU= nileshv@nileshv-B85M-D3H
+nileshv@nileshv-B85M-D3H:~/Lesson-02$ git push -u origin master
+Enumerating objects: 8, done.
+Counting objects: 100% (8/8), done.
+Delta compression using up to 4 threads
+Compressing objects: 100% (7/7), done.
+Writing objects: 100% (8/8), 1.14 KiB | 582.00 KiB/s, done.
+Total 8 (delta 0), reused 0 (delta 0)
+To github.com:reachnileshvaity1/Lesson-02-githubfiles.git
+ * [new branch]      master -> master
+Branch 'master' set up to track remote branch 'master' from 'origin'.
+nileshv@nileshv-B85M-D3H:~/Lesson-02$ 
+
 
