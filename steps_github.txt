@@ -1,0 +1,24 @@
+nileshv@nileshv-B85M-D3H:~$ git version
+git version 2.25.1
+nileshv@nileshv-B85M-D3H:~$ git config --global user.email "reachnileshvaity1@gmail.com"
+nileshv@nileshv-B85M-D3H:~$ git config --global user.username "reachnileshvaity1"
+nileshv@nileshv-B85M-D3H:~$ mkdir Lesson-02
+nileshv@nileshv-B85M-D3H:~$ cd Lesson-02/
+nileshv@nileshv-B85M-D3H:~/Lesson-02$ touch index.html Texts.txt C_Program.c HelloJava.java index.js styles.css typo.ts
+nileshv@nileshv-B85M-D3H:~/Lesson-02$ ls -l
+total 0
+-rw-rw-r-- 1 nileshv nileshv 0 Dec 24 09:11 C_Program.c
+-rw-rw-r-- 1 nileshv nileshv 0 Dec 24 09:11 HelloJava.java
+-rw-rw-r-- 1 nileshv nileshv 0 Dec 24 09:11 index.html
+-rw-rw-r-- 1 nileshv nileshv 0 Dec 24 09:11 index.js
+-rw-rw-r-- 1 nileshv nileshv 0 Dec 24 09:11 styles.css
+-rw-rw-r-- 1 nileshv nileshv 0 Dec 24 09:11 Texts.txt
+-rw-rw-r-- 1 nileshv nileshv 0 Dec 24 09:11 typo.ts
+nileshv@nileshv-B85M-D3H:~/Lesson-02$ sync
+nileshv@nileshv-B85M-D3H:~/Lesson-02$ vi C_Program.c 
+nileshv@nileshv-B85M-D3H:~/Lesson-02$ vi HelloJava.java 
+nileshv@nileshv-B85M-D3H:~/Lesson-02$ vi index.html 
+nileshv@nileshv-B85M-D3H:~/Lesson-02$ vi index.js 
+nileshv@nileshv-B85M-D3H:~/Lesson-02$ git init
+Initialized empty Git repository in /home/nileshv/Lesson-02/.git/
+
